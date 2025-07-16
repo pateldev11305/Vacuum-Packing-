@@ -56,15 +56,15 @@ Please change the parent <Route path="${V}"> to <Route path="${V==="/"?"*":`${V}
 ✅ Airtight seal keeps contents 100% moisture-free 
 ✅ Keeps dry goods crisp and fresh longer 
 ✅ Prevents contamination and leaks 
-✅ Suitable for liquids and solids`,reverse:!0},{img:"bubblewrap.jpg",description:`Bubble Wrapping 
+✅ Suitable for liquids and solids`,reverse:!0},{img:"./bubblewrap.jpg",description:`Bubble Wrapping 
 ✅ Cushions fragile items against impact 
 ✅ Protects from scratches and dents 
 ✅ Ideal for shipping and storage. 
-✅ Adds an extra layer of security during transit`,reverse:!1},{img:"clothespack.webp",description:`Clothes Packing 
+✅ Adds an extra layer of security during transit`,reverse:!1},{img:"./clothespack.webp",description:`Clothes Packing 
 ✅ Compact design saves storage space 
 ✅ Keeps garments clean and dust-free 
 ✅ Suitable for delicate and heavy fabrics. 
-✅ Preserves fabric quality during shipping and handling`,reverse:!0},{img:"shrink wrap.jpg",description:`Customize Packing 
+✅ Preserves fabric quality during shipping and handling`,reverse:!0},{img:"./shrink wrap.jpg",description:`Customize Packing 
 ✅ Tailored solutions to fit any product shape and size 
 ✅ Enhances brand identity with personalized packaging 
 ✅ Flexible designs for retail, gifts, or bulk orders 
