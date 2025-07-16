@@ -52,7 +52,7 @@ Please change the parent <Route path="${Q}"> to <Route path="${Q==="/"?"*":`${Q}
 ✅ Keeps food fresh longer 
 ✅ Isolated from bacteria and viruses 
 ✅ Locks in flavor and nutrients 
-✅ Maintains color and taste`,reverse:!1},{img:"/Vacuum-Packing-/srealpack.webp",description:`Seal Packing 
+✅ Maintains color and taste`,reverse:!1},{img:"/Vacuum-Packing-/sealpack.webp",description:`Seal Packing 
 ✅ Airtight seal keeps contents 100% moisture-free 
 ✅ Keeps dry goods crisp and fresh longer 
 ✅ Prevents contamination and leaks 
