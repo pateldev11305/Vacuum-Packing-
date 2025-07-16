@@ -1,0 +1,78 @@
+.explore-image{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+    color: #2c3e50;
+
+}
+
+.explore-image h1{
+    color:#262626;
+    font-weight: 500;
+}
+.explore-image-text{
+    max-width: 100%; 
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+    color: #2c3e50;
+}
+.explore-image-list{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    text-align:center;
+    margin:20px 0px;
+    overflow-x:scroll;
+    padding: 10px 0; /* padding top and bottom */
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #888 #e0e0e0;
+    
+}
+.explore-image-list::-webkit-scrollbar{
+    display:none;
+}
+
+    .explore-image-list-item img {
+        width: 11.5vw; /* no space between number and unit */
+        max-width: 150px; /* limit the maximum size */
+        height: auto;
+        cursor: pointer;
+        border-radius: 20%; /* 50% for a perfect circle */
+        transition: 0.2s; /* 's' not '%' */
+        object-fit: cover; /* make sure image fits nicely inside */
+    }
+    
+
+
+
+.explore-image-list-item p{
+    margin-top: 10px;
+    
+    font-size:max(1.4vw,16px);
+    cursor:pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 ;
+    color: #2c3e50;
+}
+.explore-image hr{
+    margin:10px 0px;
+    height: 2px;
+    background-color: #747474;
+    border:none
+
+}
+.explore-image-list-item.active{
+    border: 4px solid;
+    color:Tomato;
+    padding:2px;
+
+}
+@media(max-width:1050px){
+    .explore-menu-text{
+        max-width: 100%;
+        font-size:14px;
+    }
+}
